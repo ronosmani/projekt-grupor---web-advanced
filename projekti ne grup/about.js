@@ -1,6 +1,6 @@
 const cars = [
   {
-    name: "Mercedes-Benz C-Class",
+    name: "G-class-mercedes",
     condition: "Excellent",
     description: "A sophisticated blend of luxury and performance. Recently serviced and in near-new condition. Ideal for business and comfort travel."
   },

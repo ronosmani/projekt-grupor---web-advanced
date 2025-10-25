@@ -20,7 +20,7 @@ const cars = [
     description: "A masterpiece of Italian engineering with a twin-turbo V8. Barely used, show-car condition, stunning in every detail."
   },
   {
-    name: "Porsche 911",
+    name: "Ford Focus",
     condition: "Excellent",
     description: "Low mileage sports car with timeless design. Excellent mechanical condition and pristine paintwork."
   },

@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-    background-color:  #5e5151;
+    background-color: #5e5151;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,4 +44,79 @@ body {
 
 .navbar ul li a:hover {
     background-color: #575757;
+}
+
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px); 
+    padding: 20px;
+}
+
+.form-container {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+form label {
+    font-size: 15px;
+    color: #444;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: #f8f8f8;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+    background-color: #eef6ff;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background-color: #0e1f5a;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #3d3535;
+}
+footer {
+    background-color: #5e5151;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+    margin-top: 40px;
 }

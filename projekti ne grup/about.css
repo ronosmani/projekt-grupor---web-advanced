@@ -57,7 +57,7 @@ body {
 }
 
 header {
-  background: linear-gradient(90deg, #ff8c00, #ffd700);
+  background: linear-gradient(90deg, #ff8c00);
   color: black;
   padding: 30px 10px;
   text-shadow: 0 0 5px #fff;
@@ -77,7 +77,6 @@ h1 {
 .filter select {
   background: #222;
   color: white;
-  border: 1px solid #ff8c00;
   padding: 10px;
   border-radius: 5px;
   font-size: 1em;
@@ -93,7 +92,6 @@ h1 {
 
 .car {
   background: #1c1c1c;
-  border: 2px solid #ff8c00;
   border-radius: 15px;
   width: 300px;
   margin: 15px;

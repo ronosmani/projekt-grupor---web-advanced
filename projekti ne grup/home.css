@@ -23,7 +23,7 @@ body {
     text-align: right;
 }
 
-.navbar {
+.main-navbar {
     background-color:  #5e5151;
     display: flex;
     justify-content: center;
@@ -32,7 +32,7 @@ body {
     width: 100%;
 }
 
-.navbar ul {
+.main-navbar ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -45,11 +45,11 @@ body {
      margin: 0;
  }
 
-.navbar ul li {
+.main-navbar ul li {
  margin-left: 20px;
 }
 
-.navbar ul li a {
+.main-navbar ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -58,7 +58,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.navbar ul li a:hover {
+.main-navbar ul li a:hover {
     background-color: #575757;
 }
 

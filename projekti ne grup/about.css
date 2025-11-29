@@ -1,12 +1,4 @@
-@keyframes glow {
-  50% { box-shadow: 0 0 20px #ff0000; }
-  100% { box-shadow: 0 0 10px #ff8c00; }
-}
- *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body {
     background: linear-gradient(to left, white, lightgray);
@@ -46,18 +38,20 @@ body {
     transition: background-color 0.3s ease;
 }
 
-
+.navbar ul li a:hover {
+    background-color: #575757;
+}
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: radial-gradient(circle at top, #0d0d0d, #000);
+  background: #5e5151;
   color: white;
   text-align: center;
   overflow-x: hidden;
 }
 
 header {
-  background: linear-gradient(90deg, #ff8c00);
+  background: white;
   color: black;
   padding: 30px 10px;
   text-shadow: 0 0 5px #fff;
@@ -77,6 +71,7 @@ h1 {
 .filter select {
   background: #222;
   color: white;
+  border: 1px solid #ffffff;
   padding: 10px;
   border-radius: 5px;
   font-size: 1em;
@@ -91,19 +86,22 @@ h1 {
 }
 
 .car {
-  background: #1c1c1c;
+  background: #eee8e8;
+  border: 2px solid #0c0c0c;
   border-radius: 15px;
   width: 300px;
   margin: 15px;
   padding: 20px;
+  box-shadow: 0 0 15px rgba(255, 140, 0, 0.4);
+  transition: transform 0.4s, box-shadow 0.4s;
   position: relative;
   overflow: hidden;
 }
-
+.car:hover { transform: translateY(-10px) scale(1.05); }
 
 .car h2{
      font-family: 'Orbitron', sans-serif;
-     color: #ff8c00; }
+     color: #000000; }
 
 .condition {
   font-weight: bold;
@@ -140,53 +138,6 @@ footer {
   font-size: 0.9em;
   color: #aaa;
 }
-
-.about-section {
-  background: radial-gradient(circle at top, #0d0d0d, #000);
-  color: white;
-  padding: 50px 20px;
-}
-
-.about-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  max-width: 1100px;
-  margin: 0 auto;
-  gap: 40px;
-}
-
-.about-text {
-  flex: 1 1 500px;
-  text-align: left;
-}
-
-.about-text h2 {
-  color: #ff8c00;
-  font-family: 'Orbitron', sans-serif;
-  margin-top: 20px;
-}
-
-.about-text p {
-  color: #ccc;
-  line-height: 1.6em;
-  margin-top: 10px;
-}
-
-.about-text ul {
-  list-style: none;
-  margin-top: 15px;
-  padding: 0;
-}
-
-.about-text ul li {
-  color: #ffd700;
-  margin: 8px 0;
-  font-weight: bold;
-}
-
-
 
 
  

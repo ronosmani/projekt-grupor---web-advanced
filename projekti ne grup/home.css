@@ -83,3 +83,7 @@ body {
     font-size: 14px;
     margin-top: 40px;
 }
+.carousel-item{
+    width: 1600px;
+    height: 1150px;
+}

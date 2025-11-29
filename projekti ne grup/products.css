@@ -66,7 +66,58 @@ body {
   margin: 0;
   padding: 0;
 }
-#logo{
+
+h1 {
+ 
+  padding: 20px;
+  margin: 0;
+}
+
+#car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+}
+
+.car {
+  background: #1e1e1e;
+  border: 2px solid #444;
+  border-radius: 10px;
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.car:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff8c00;
+}
+
+.car h2 {
+  color: #ff8c00;
+}
+
+.condition {
+  font-weight: bold;
+  margin-top: 10px;
+}
+#search{
+  margin: 5px;
+}
+footer {
+    background-color: #5e5151;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+  .card{
+    padding :10px;
+  }
+  #logo{
     height: 150px;
     width: 200px;
     padding-left: 25px;
@@ -75,11 +126,3 @@ body {
     padding-bottom: 5px;
     
   }
-  footer {
-    background-color: #5e5151;
-    color: white;
-    text-align: center;
-    padding: 20px 10px;
-    font-size: 14px;
-    margin-top: 40px;
-}

@@ -71,7 +71,7 @@ h1 {
 .filter select {
   background: #222;
   color: white;
-  border: 1px solid #ffffff;
+  border: 1px solid #221d1d;
   padding: 10px;
   border-radius: 5px;
   font-size: 1em;
@@ -86,7 +86,7 @@ h1 {
 }
 
 .car {
-  background: #eee8e8;
+  background: #463f3f;
   border: 2px solid #0c0c0c;
   border-radius: 15px;
   width: 300px;
